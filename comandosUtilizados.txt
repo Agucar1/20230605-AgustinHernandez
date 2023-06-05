@@ -1,0 +1,35 @@
+   97  mkdir 20230506-AgustinHernandez
+   98  git init
+   99  touch comandos.txt main.js index.html
+  100  git add .
+  101  git commit -m "commit 01 de AgustinHernandez"
+  102  git branch -M main
+  103  git remote add origin https://github.com/Agucar1/20230605-AgustinHernandez.git
+  104  git push -u origin main
+  105  git branch feature01
+  106  git checkout feature01
+  107  mkdir terminal hardware
+  108  cd terminal
+  109  touch resumen.txt
+  110  cd ..
+  111  cd hardware
+  112  touch resumen.txt
+  113  git push -u origin feature01
+  114  git add .
+  115  git commit -m "commit 02 de AgustinHernandez"
+  116  git push -u origin feature01
+  117  git add .
+  118  git push -u origin feature01
+  119  git push -u origin feature01
+  120  git branch feature02
+  121  git checkout feature02
+  122  git add .
+  123  cd ..
+  124  git add .
+  125*
+  126  git add .
+  127  git commit -m "commit 03 AgustinHernandez"
+  128  git push -u origin feature02
+  129  git checkout main
+  130  mv comandos.txt comandosUtilizados.txt
+  131  history
