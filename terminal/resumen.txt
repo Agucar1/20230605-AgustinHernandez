@@ -1,0 +1,5 @@
+mkdir 
+touch
+mv
+git init
+git add
